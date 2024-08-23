@@ -23,6 +23,9 @@ public class Task08 {
         System.out.println("Колличество симметричных комбинаций: " + mirrorNumbersCounts);
     }
 
+    /**
+     * Метод принимает значение часа и возвращает перевернутое(зеркально) значение.
+     */
     public static int reverseHour(int hour) {
         int reverse;
         if (hour < 10) reverse = hour * 10;
@@ -30,6 +33,9 @@ public class Task08 {
         return reverse;
     }
 
+    /**
+     * Метод принимает значения часа и минут и выводит в консоль время в формате 00:00
+     */
     public static void printTime(int hour, int min) {
         if (hour < 10) System.out.print("0" + hour);
         else System.out.print(hour);
