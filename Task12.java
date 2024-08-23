@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Task12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double x = 4; //так как в условии небыло этого значения, я произвольно присвоил 10
+        double x = 4; //так как в условии небыло этого значения, я произвольно присвоил 4
         double nextDay;
         double y;
         int days = 1;
